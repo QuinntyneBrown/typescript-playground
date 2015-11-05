@@ -1,0 +1,41 @@
+{
+  "name": "typescript-playground",
+  "version": "0.0.1",
+  "description": "Playing with TypeScript 1.6 features in Visual Studio 2013",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinntyneBrown/typescript-playground.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuinntyneBrown/typescript-playground/issues"
+  },
+    "homepage": "https://github.com/QuinntyneBrown/typescript-playground#readme",
+    "devDependencies": {
+        "event-stream": "^3.3.2",
+        "gulp": "^3.8.11",
+        "gulp-autoprefixer": "^3.1.0",
+        "gulp-clean": "^0.3.1",
+        "gulp-concat": "^2.5.2",
+        "gulp-karma": "0.0.4",
+        "gulp-rename": "^1.2.2",
+        "gulp-rimraf": "^0.1.1",
+        "gulp-sass": "^2.0.4",
+        "gulp-sourcemaps": "^1.5.1",
+        "gulp-tslint": "^1.4.4",
+        "gulp-typedoc": "^1.2.1",
+        "gulp-typescript": "^2.5.0",
+        "gulp-uglify": "^1.4.1",
+        "karma": "^0.12.36",
+        "karma-chrome-launcher": "^0.2.0",
+        "karma-coverage": "^0.2.4",
+        "karma-jasmine": "^0.3.6",
+        "karma-phantomjs-launcher": "^0.2.1",
+        "karma-spec-reporter": "0.0.19"
+    }
+}
