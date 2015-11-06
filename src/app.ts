@@ -1,14 +1,9 @@
 ﻿class Test {
 
     constructor() {
-        let a = 5;
+        let a = 0;
     }
 
-    public get backTick() {
-        return `multi
-                line
-                back
-                tick`;
-    }
+    public get message() { return `hello`; }
 
 } 

@@ -4,7 +4,7 @@
   "description": "Playing with TypeScript 1.6 features in Visual Studio 2013",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -p src -w"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,8 @@
         "karma-coverage": "^0.2.4",
         "karma-jasmine": "^0.3.6",
         "karma-phantomjs-launcher": "^0.2.1",
-        "karma-spec-reporter": "0.0.19"
+        "karma-spec-reporter": "0.0.19",            
+        "live-server": "^0.8.1",
+        "typescript": "^1.6.2"  
     }
 }
