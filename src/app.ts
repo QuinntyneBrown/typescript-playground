@@ -4,6 +4,16 @@
         let a = 0;
     }
 
-    public get message() { return `hello`; }
+    @nonenumerable
+    getAnswer() {
+        return 42;
+    }
 
+    get message() { return `hello`; }
+
+} 
+
+function nonenumerable(target, name, descriptor) {
+    descriptor.enumerable = false;
+    return descriptor;
 } 
