@@ -15,29 +15,11 @@
   "bugs": {
     "url": "https://github.com/QuinntyneBrown/typescript-playground/issues"
   },
-    "homepage": "https://github.com/QuinntyneBrown/typescript-playground#readme",
-    "devDependencies": {
-        "event-stream": "^3.3.2",
-        "gulp": "^3.8.11",
-        "gulp-autoprefixer": "^3.1.0",
-        "gulp-clean": "^0.3.1",
-        "gulp-concat": "^2.5.2",
-        "gulp-karma": "0.0.4",
-        "gulp-rename": "^1.2.2",
-        "gulp-rimraf": "^0.1.1",
-        "gulp-sass": "^2.0.4",
-        "gulp-sourcemaps": "^1.5.1",
-        "gulp-tslint": "^1.4.4",
-        "gulp-typedoc": "^1.2.1",
-        "gulp-typescript": "^2.5.0",
-        "gulp-uglify": "^1.4.1",
-        "karma": "^0.12.36",
-        "karma-chrome-launcher": "^0.2.0",
-        "karma-coverage": "^0.2.4",
-        "karma-jasmine": "^0.3.6",
-        "karma-phantomjs-launcher": "^0.2.1",
-        "karma-spec-reporter": "0.0.19",            
-        "live-server": "^0.8.1",
-        "typescript": "^1.6.2"  
-    }
+  "homepage": "https://github.com/QuinntyneBrown/typescript-playground#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2",
+    "typescript": "^1.6.2"
+  }
 }
