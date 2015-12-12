@@ -25,6 +25,7 @@
     <TypeScriptEmitDecoratorMetadata>True</TypeScriptEmitDecoratorMetadata>
     <TypeScriptExperimentalDecorators>True</TypeScriptExperimentalDecorators>
     <TypeScritModuleResolution>Classic</TypeScritModuleResolution>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="package.json" />
+    <Content Include="wwwroot\app.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -72,7 +74,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gulpfile.config.js" />
     <Content Include="gulpfile.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -83,7 +84,22 @@
     <Folder Include="dist\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="src\app.ts" />
+    <TypeScriptCompile Include="wwwroot\arrowFunctions\app.ts" />
+    <TypeScriptCompile Include="wwwroot\asyncAwait\app.ts" />
+    <TypeScriptCompile Include="wwwroot\commonJsModules\app.ts" />
+    <TypeScriptCompile Include="wwwroot\declarationFiles\app.ts" />
+    <TypeScriptCompile Include="wwwroot\decorators\app.ts" />
+    <TypeScriptCompile Include="wwwroot\defaultParameters\app.ts" />
+    <TypeScriptCompile Include="wwwroot\destructuring\app.ts" />
+    <TypeScriptCompile Include="wwwroot\enums\app.ts" />
+    <TypeScriptCompile Include="wwwroot\generics\app.ts" />
+    <TypeScriptCompile Include="wwwroot\inheritance\app.ts" />
+    <TypeScriptCompile Include="wwwroot\interfaces\app.ts" />
+    <TypeScriptCompile Include="wwwroot\restParameters\app.ts" />
+    <TypeScriptCompile Include="wwwroot\spreadOperator\app.ts" />
+    <TypeScriptCompile Include="wwwroot\symbol\app.ts" />
+    <TypeScriptCompile Include="wwwroot\templateStrings\app.ts" />
+    <TypeScriptCompile Include="wwwroot\templates\app.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

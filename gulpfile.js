@@ -1,5 +1,13 @@
 ﻿var gulp = require("gulp");
 var tsc = require('gulp-typescript');
+var tslint = require('gulp-tslint');
+
+gulp.task('tslint', function () {
+
+    gulp.src('wwwroot/arrowFunctions/app.ts')
+        .pipe(tslint())
+        .pipe(tslint.report('verbose'))
+});
 
 gulp.task('default', function () {
 

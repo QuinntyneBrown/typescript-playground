@@ -19,7 +19,9 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^4.1.2",
     "gulp-typescript": "^2.9.2",
+    "tslint": "^3.2.0",
     "typescript": "^1.6.2"
   }
 }
