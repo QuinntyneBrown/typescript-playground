@@ -6,10 +6,18 @@ gulp.task('tslint', function () {
 
     gulp.src('wwwroot/arrowFunctions/app.ts')
         .pipe(tslint())
-        .pipe(tslint.report('verbose'))
+        .pipe(tslint.report('verbose',{
+            emitError:false   
+        }));
 });
 
-gulp.task('default', function () {
+
+gulp.task('watch', function () {
+    gulp.watch('./wwwroot/**/*.ts', ['compile', 'tslint']);
+});
+
+
+gulp.task('compile', function () {
 
     var sourceTsFiles = ['./wwwroot/**/*.ts'];
 
@@ -26,3 +34,5 @@ gulp.task('default', function () {
 
     return tsResult.js.pipe(gulp.dest('./dist/'));
 });
+
+gulp.task('default', ['compile', 'tslint', 'watch']);

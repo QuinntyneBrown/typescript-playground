@@ -1,5 +1,6 @@
 ﻿class ChatService {
-    constructor(private name: string) {
+    constructor(private name: any) {
+        
     }
 
     sendMessage = (message:string) => alert(message);
